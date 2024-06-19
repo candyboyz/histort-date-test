@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background: #f4f5f9;
+}
+
+.swiper-slide span {
+  @media (max-width: 1040px) {
+    font-size: 16px !important;
+    line-height: 19.2px !important;
+  }
+}
+
+.swiper-slide p {
+  @media (max-width: 1040px) {
+    font-size: 14px !important;
+    line-height: 20.3px !important;
+  }
+}
+
+.swiper-container {
+  @media (max-width: 1040px) {
+    margin: 0 20px 0 20px !important;
+  }
+}
+
+.circle-container {
+  @media (max-width: 1040px) {
+    display: none !important;
+    max-height: 114px;
+    height: 100%;
+  }
+}
+
+.swiper-controls-container {
+  @media (max-width: 1040px) {
+    display: none !important;
+  }
+}
+
+.slider-container {
+  @media (max-width: 1040px) {
+    flex-direction: column-reverse !important;
+  }
+}
+
+.swiper-wrapper {
+  @media (max-width: 1040px) {
+    max-height: 114px;
+    height: 100%;
+  }
+}
+
+.slider-wrapper {
+  height: 160px !important;
+  @media (max-width: 1040px) {
+    height: 114px !important;
+  }
+}
+
+.event-title-wrapper-mobile {
+  display: none;
+  @media (max-width: 1040px) {
+    display: flex;
+  }
+}
+
+.mobile-nav-wrapper {
+  display: none !important;
+  @media (max-width: 1040px) {
+    display: flex !important;
+  }
+}
